@@ -1,0 +1,73 @@
+<style>
+  .festival-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    color: #000;
+    font-weight: 400;
+    padding: 85px 70px;
+  }
+
+  .festival-subtitle {
+    font-size: 40px;
+  }
+
+  .festival-title {
+    font-size: 80px;
+    margin-top: 21px;
+  }
+
+  .festival-date {
+    font-size: 250px;
+    margin-top: 21px;
+  }
+
+  .festival-details {
+    font-size: 50px;
+    align-self: start;
+    margin-top: 268px;
+  }
+
+  @media (max-width: 991px) {
+    .festival-container {
+      padding: 20px;
+    }
+
+    .festival-subtitle,
+    .festival-title,
+    .festival-date,
+    .festival-details {
+      max-width: 100%;
+      font-size: 40px;
+    }
+
+    .festival-details {
+      margin-top: 40px;
+    }
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+</style>
+
+<section class="festival-container">
+  <h2 class="festival-subtitle">笑顔あふれるゆるキャラ</h2>
+  <h1 class="festival-title">Do you know <br /> gentle penguin festival!?</h1>
+  <p class="festival-date">4/28 4/29</p>
+  <p class="festival-details">
+    場所：聖光学院中学高等学校 <br />
+    時間：9.00~15.00
+  </p>
+</section>
